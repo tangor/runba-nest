@@ -1,0 +1,22 @@
+[
+  {
+    "name": "default",
+    "type": "sqlite",
+    "database": "test",
+    "autoSchemaSync": true,
+    "entities": [
+      "src/components/*.ts"
+    ],
+    "subscribers": [
+      "src/subscriber/*.ts,"
+    ],
+    "migrations": [
+      "src/migration/*.ts"
+    ],
+    "cli": {
+      "entitiesDir": "src/components",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    }
+  }
+]
