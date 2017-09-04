@@ -8,8 +8,11 @@ const app = NestFactory.create(ApplicationModule);
 app.listen(3000, () => console.log("Application is listening on port 3000."));
 
 createConnection({
-  type: "sqlite",
-  database: "./temp/development.sqlite3",
+
+    type: "sqlite",
+    host: "localhost",
+    database: "./development.sqlite3",
+
   entities: [
     Project
   ],

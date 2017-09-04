@@ -2,7 +2,8 @@
   {
     "name": "default",
     "type": "sqlite",
-    "database": "test",
+    "host": "localhost",
+    "storage": "test.sqlite3",
     "autoSchemaSync": true,
     "entities": [
       "src/components/*.ts"

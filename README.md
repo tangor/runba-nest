@@ -1,20 +1,15 @@
-[![Nest Logo](http://kamilmysliwiec.com/public/nest-logo.png)](http://kamilmysliwiec.com/)
 
-<img src="https://github.com/remojansen/logo.ts/blob/master/ts.png?raw=true" width="18">  TypeScript Starter repository for [Nest](https://github.com/kamilmysliwiec/nest) framework.
+# Run BA
 
-## Installation
 
-```
-$ npm install
-```
-
-## Start
+## Install
 
 ```
-$ npm run start
+$ npm install -g gulp
 ```
 
-## People
+## Running
 
-- Author - [Kamil Myśliwiec](http://kamilmysliwiec.com)
-- Website - [http://nestjs.com](http://nestjs.com/)
+```
+$ gulp start
+```
